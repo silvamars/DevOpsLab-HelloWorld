@@ -21,7 +21,6 @@ class Test(unittest.TestCase):
         # verifica o retorno do conteudo da pagina
         self.assertRegex(result.data.decode(), "DevOps Essential - 4Linux")
 
-
 if __name__ == "__main__":
     print ('INICIANDO OS TESTES')
     print('----------------------------------------------------------------------')
